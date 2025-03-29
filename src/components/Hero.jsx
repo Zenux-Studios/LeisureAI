@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import Image from "next/image";
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -68,20 +68,7 @@ const HeroSection = () => {
           </div>
           
           {/* Trust indicators */}
-          <div className="mt-16 pt-8 border-t border-gray-800 flex flex-wrap justify-center gap-8 opacity-70 hover:opacity-100 transition-opacity duration-300">
-            <div className="flex items-center">
-              <div className="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
-              <span className="text-gray-400">Trusted by 10,000+ users</span>
-            </div>
-            <div className="flex items-center">
-              <div className="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
-              <span className="text-gray-400">Bank-level security</span>
-            </div>
-            <div className="flex items-center">
-              <div className="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
-              <span className="text-gray-400">24/7 Support</span>
-            </div>
-          </div>
+          
         </div>
       </div>
       
