@@ -1,7 +1,13 @@
+// import { AuroraBackground } from "@/components/ui/aurora-background";
+import HeroSection from "@/components/Hero";
 export default function MainPage() {
   return (
     <div>
-     <h1>hi</h1>
+     <div className="">
+      <HeroSection/>
+     {/* <AuroraBackground/> */}
+     </div>
+     
      
     </div>
   );
