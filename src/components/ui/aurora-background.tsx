@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Heart, Shield, Users } from "lucide-react";
 
+
 const AuroraBackground = () => {
   const heroRef = useRef(null);
 
@@ -33,6 +34,7 @@ const AuroraBackground = () => {
             <span className="text-2xl">clam</span>
             <span className="text-blue-400 text-xl">★</span>
           </Link>
+          
         </div>
 
         <div className="hidden md:flex items-center gap-8 text-sm">
@@ -90,8 +92,8 @@ const AuroraBackground = () => {
                 </Button>
               </Link>
               <Link href="/learn-more" className="w-full sm:w-auto">
-                <Button variant="outline" size="lg" className="w-full px-8 py-6 border-gray-700 hover:bg-gray-800/50 transition-all duration-300">
-                  Learn More
+                <Button variant="outline" size="lg" className="w-full px-8 py-6 border-gray-700 hover:bg-gray-800/50 transition-all duration-300 text-blue-600">
+                  <span  className="text-blue-600">Learn More </span>
                 </Button>
               </Link>
             </div>
